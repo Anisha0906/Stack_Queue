@@ -24,6 +24,9 @@ namespace StackAndQueue
             queue.Enqueue(70);
             Console.WriteLine("Queue Structure- ");
             queue.Display();
+            queue.Dequeue();
+            Console.WriteLine("New Queue Structure- ");
+            queue.Display();
             Console.ReadLine();
         }
     }

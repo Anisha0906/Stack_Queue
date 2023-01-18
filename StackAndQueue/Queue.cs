@@ -26,6 +26,14 @@ namespace StackAndQueue
             }
             Console.WriteLine("{0} inserted into queue ", node.data);
         }
+        internal void Dequeue()
+        {
+            if (this.head == null)
+                return;
+            Node temp = this.head;
+            this.head = this.head.next;
+            Console.WriteLine(temp.data + " is removed");
+        }
         internal void Display()
         {
             Node temp = this.head;
