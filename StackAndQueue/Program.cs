@@ -18,6 +18,12 @@ namespace StackAndQueue
             stack.Display();
             stack.IsEmpty();
             stack.Display();
+            Queue queue = new Queue();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            Console.WriteLine("Queue Structure- ");
+            queue.Display();
             Console.ReadLine();
         }
     }
