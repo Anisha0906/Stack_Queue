@@ -16,6 +16,8 @@ namespace StackAndQueue
             stack.Push(56);
             Console.WriteLine("Stack Structure- ");
             stack.Display();
+            stack.IsEmpty();
+            stack.Display();
             Console.ReadLine();
         }
     }
